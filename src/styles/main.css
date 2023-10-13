@@ -160,11 +160,24 @@ footer a {
   text-decoration: none;
   color: #ffffff;
 }
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  padding: 8px;
+  background-color: #bf1722;
+  color: white;
+  z-index: 100;
+}
 .posts {
   display: grid;
   grid-row-gap: 16px;
 }
 @media screen and (max-width: 499px) {
+  .header__menu {
+    padding: 12px;
+    font-size: 32px;
+  }
   .nav {
     z-index: 10;
     background-color: #3e5f69;
