@@ -5,7 +5,7 @@ let makeCard = '';
 for (let i = 0; i < data.restaurants.length; i++) {
   makeCard += `
    <article class="post-item">
-    <figure class="post-item__image">
+    <figure class="post-item__content">
       <img class="post-item__thumbnail" src="${data.restaurants[i].pictureId}" alt="" />
       <figcaption class="post-item__city">${data.restaurants[i].city}</figcaption>
     </figure>
