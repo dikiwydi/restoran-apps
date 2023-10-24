@@ -169,6 +169,9 @@ footer a {
   color: white;
   z-index: 100;
 }
+.skip-link:focus {
+  top: 0;
+}
 .posts {
   display: grid;
   grid-row-gap: 16px;
